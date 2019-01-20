@@ -75,6 +75,7 @@
 
 | Address  | Type    | Description             |
 | -------- | ------- | ----------------------- |
+| 201a7b82 | int8    | Have Clank (1/0)        |
 | 201a7a80 | int32   | Bolts                   |
 | 2018c36c | int32   | Health                  |
 | 201a7a94 | int32   | Nanotech upgrade        |
