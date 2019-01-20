@@ -73,20 +73,22 @@
 
 # Misc
 
-| Address  | Type    | Description             |
-| -------- | ------- | ----------------------- |
-| 201a7b82 | int8    | Have Clank (1/0)        |
-| 201a7a80 | int32   | Bolts                   |
-| 2018c36c | int32   | Health                  |
-| 201a7a94 | int32   | Nanotech upgrade        |
-| 201a7a84 | int32   | Raritanium              |
-| 20189f20 | float32 | Position X              |
-| 20189f24 | float32 | Position Y              |
-| 20189f28 | float32 | Position Z              |
-| 20221890 | int32   | Space mission 1 enemies |
-| 20221d50 | int32   | Space mission 2 enemies |
-| 201a7aa2 | int32   | Crystals                |
-| 2187fa81 | int32   | Dobbo Boss health       |
-| 2029fc34 | int32   | Ship Nuke ammo          |
-| 21ff1b94 | int32   | Weapon menu row         |
-| 21ff1b98 | int32   | Weapon menu column      |
+| Address  | Type          | Description                |
+| -------- | ------------- | -------------------------- |
+| 201a7b82 | int8          | Have Clank (1/0)           |
+| 201a7a80 | int32         | Bolts                      |
+| 201a7ae8 | bytearray[30] | Skill Points (1/0)         |
+| 201a7a88 | int8          | Nanotech level (read only) |
+| 2018c36c | int32         | Health                     |
+| 201a7a94 | int32         | Nanotech upgrade           |
+| 201a7a84 | int32         | Raritanium                 |
+| 20189f20 | float32       | Position X                 |
+| 20189f24 | float32       | Position Y                 |
+| 20189f28 | float32       | Position Z                 |
+| 20221890 | int32         | Space mission 1 enemies    |
+| 20221d50 | int32         | Space mission 2 enemies    |
+| 201a7aa2 | int32         | Crystals                   |
+| 2187fa81 | int32         | Dobbo Boss health          |
+| 2029fc34 | int32         | Ship Nuke ammo             |
+| 21ff1b94 | int32         | Weapon menu row            |
+| 21ff1b98 | int32         | Weapon menu column         |
